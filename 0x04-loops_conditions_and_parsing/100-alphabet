@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# This script prints the alphabet in reverse except for 'e' and 'q'
+# Prints the alphabet in reverse order except e and q
 for char in {z..a}
 do
     if [ "$char" != "e" ] && [ "$char" != "q" ]
@@ -7,4 +7,4 @@ do
         echo -n "$char"
     fi
 done
-echo ""
+echo "

@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# Prints all possible combinations of two digits
+for i in {0..8}
+do
+    for j in {1..9}
+    do
+        if [ "$i" -lt "$j" ]
+        then
+            if [ "$i" -eq 8 ] && [ "$j" -eq 9 ]
+            then
+                echo -n "$i" "$j"
+            else
+                echo -n "$i" "$j", "
+            fi
+        fi
+    done
+done
+echo "
