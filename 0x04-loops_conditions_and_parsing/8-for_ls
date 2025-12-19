@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# This script lists only files starting with 'file' in the current directory
-for file in file*
+# This script lists only the name of the files in the current directory
+for file in *
 do
-    echo "$file"
+    echo "$file" | sed 's/8-for_ls//' | sed '/^$/d'
 done
