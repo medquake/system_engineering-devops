@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# This script lists files in the current directory excluding itself
+# This script lists all files in the current directory except itself
 for file in *
 do
     if [ "$file" != "8-for_ls" ]
