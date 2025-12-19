@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# This script lists the content of the current directory
-for file in *
+# This script lists only specific files in the current directory
+for file in file*
 do
     echo "$file"
 done
