@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# This script displays its PID and handles SIGTERM
+echo "$$"
+trap "echo 'I am invincible!!!'" SIGTERM
+while :
+do
+    sleep 2
+done
