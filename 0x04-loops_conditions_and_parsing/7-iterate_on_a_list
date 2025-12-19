@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# This script displays Best School and the iteration number 10 times
+counter=1
+while [ "$counter" -le 10 ]
+do
+    echo "Best School"
+    echo "$counter"
+    ((counter++))
+done

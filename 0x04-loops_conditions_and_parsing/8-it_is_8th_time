@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# This script displays Best School and a message on the 8th iteration
+for i in {1..10}
+do
+    echo "Best School"
+    if [ "$i" -eq 8 ]
+    then
+        echo "it is the 8th time"
+    fi
+done
