@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# This script displays time from 0 to 23 hours and 0 to 59 minutes
+for h in {0..23}
+do
+    for m in {0..59}
+    do
+        echo "Hour: $h Minute: $m"
+    done
+done
