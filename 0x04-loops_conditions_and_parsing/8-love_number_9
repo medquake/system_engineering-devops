@@ -1,0 +1,9 @@
+#!/bin/bash
+for i in {1..10}
+do
+    echo "Best School"
+    if [ $i -eq 9 ]
+    then
+        echo "I love number 9"
+    fi
+done
