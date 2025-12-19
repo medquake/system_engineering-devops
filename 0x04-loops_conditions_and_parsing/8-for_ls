@@ -1,9 +1,6 @@
 #!/usr/bin/env bash
-# This script lists only the name of the files in the current directory
-for file in *
+# This script lists all files in the current directory except itself
+for file in $(ls | grep -v "8-for_ls")
 do
-    if [ "$file" != "8-for_ls" ]
-    then
-        echo "$file"
-    fi
+    echo "$file"
 done
