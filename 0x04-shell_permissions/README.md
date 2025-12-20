@@ -1,1 +1,1 @@
-Shell permissions project
+Permissions
